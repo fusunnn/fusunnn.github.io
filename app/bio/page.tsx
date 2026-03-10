@@ -27,7 +27,9 @@ export default function BioPage() {
 
       interests: `Beyond academics, I am fascinated by the rapidly evolving world of AI and its growing role in everyday life. I enjoy exploring emerging technologies, reading about cognitive science, and thinking about how intelligent systems can better serve human needs.
 
-  I am also deeply interested in data journalism and visual storytelling. When presented thoughtfully, data can reveal important insights and spark meaningful conversations. In my free time, I enjoy photography and working out.`,
+  I am also deeply interested in data journalism and visual storytelling. When presented thoughtfully, data can reveal important insights and spark meaningful conversations. 
+
+In my free time, I enjoy photography, working out, and I'm especially fond of zombie-themed films and TV shows!`,
 
       goals: `My goal is to become a product leader who bridges cutting-edge AI technology with real-world user needs. I want to build products that are not only technically powerful but also intuitive and human-centered.
 
@@ -43,7 +45,9 @@ export default function BioPage() {
 
       interests: `在学术之外，我对 AI 技术及其在日常生活中的应用充满兴趣。我喜欢关注新技术的发展，也喜欢阅读认知科学相关内容，思考智能系统如何更好地服务于人类需求。
 
-  同时，我对数据新闻与视觉叙事也非常感兴趣。我相信，当数据被清晰而有逻辑地呈现时，可以帮助人们理解复杂问题，并引发有价值的公共讨论。闲暇时间里，我喜欢摄影、健身。`,
+  同时，我对数据新闻与视觉叙事也非常感兴趣。我相信，当数据被清晰而有逻辑地呈现时，可以帮助人们理解复杂问题，并引发有价值的公共讨论。
+
+  闲暇时间里，我喜欢摄影、健身，还特别喜欢丧尸影视作品！`,
 
       goals: `我的职业目标是成为一名能够连接前沿 AI 技术与真实用户需求的产品负责人。我希望构建既具备技术深度，又直观易用、以人为中心的产品。
 

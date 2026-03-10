@@ -179,6 +179,8 @@ export interface Project {
   impactZh?: string
   skills?: string[]
   externalLink?: string
+  visionEn?:string
+  visionZh?:string
   images?: string[]
   role?: string
   recognition?: string[]
@@ -435,7 +437,7 @@ export const projects: Project[] = [
   impactEn:
     "Published as a data journalism article on The Paper. Achieved 2,500+ reads and was awarded 'Pai Editor's Choice – No.1 in Data Journalism Category'.",
   impactZh:
-    "作品发表于澎湃新闻平台，获得2500+阅读量，并被评为“湃客编辑部优质稿件—数据新闻类NO.1”。",
+    "作品《厕所标识“男女不分”？我们走访了200个公共厕所》发表于澎湃新闻平台，微信公众号平台获得2500+阅读量，并被评为“湃客编辑部优质稿件—数据新闻类NO.1”。",
 
 
   images: [
@@ -481,7 +483,10 @@ export const projects: Project[] = [
 
 
   externalLink:
-    "https://mp.weixin.qq.com/s/CO4_CE3FIkKxxfXCOx_FiQ"
+    "https://mp.weixin.qq.com/s/CO4_CE3FIkKxxfXCOx_FiQ",
+  
+   visionEn: "No matter how times change or how the medium evolves, humanity's need for quality resources and desire for profound, diverse thinking will never change. In an ever-shifting media landscape, our goal remains the same: to continue using words as our medium to tell stories that touch hearts and inspire thought, regardless of length or form.",
+   visionZh: "无论时代如何变迁、传播介质如何变化，人类对优质稀缺资源的需求和对深刻多元思想的渴望永远不会改变。在不断变化的媒体景观中，我们的目标始终是无论时间长短、形势如何，继续以字为媒，传递那些能触动人心、引发思考的故事。"
 }
 
 

@@ -27,9 +27,9 @@ const translations = {
 
     // Hero Section
     "hero.greeting": "Welcome to my website",
-    "hero.name": "Lei Yiting", 
+    "hero.name": "Lydia Lei", 
     "hero.title": "Network and New Media Student | Journalism & Technology",
-    "hero.tagline": "Exploring the intersection of AI, research, and product thinking.",
+    "hero.tagline": "Curious about how technology shapes the way we understand the world.",
     "hero.description": "Undergraduate student at Shanghai International Studies University with experience in AI systems, recommendation systems, data journalism, and digital media production.",
     "hero.viewProjects": "View Projects",
     "hero.downloadResumeEn": "Resume (EN)",
@@ -103,7 +103,7 @@ const translations = {
     // Hero Section
     "hero.greeting": "欢迎来到我的个人网站",
     "hero.name": "雷怡婷",
-    "hero.tagline": "探索人工智能、研究与产品思维的交叉领域。",
+    "hero.tagline": "我好奇技术如何改变人们理解世界的方式。",
 
     "hero.title": "网络与新媒体专业 | 新闻传播与技术",
     "hero.description": "上海外国语大学本科生，在 AI 系统、推荐系统、数据新闻和数字媒体制作方面拥有丰富经验。",
@@ -122,7 +122,7 @@ const translations = {
 
     // Experience Section
     "experience.title": "经历",
-    "experience.subtitle": "我在 AI 和科技行业的专业经验",
+    "experience.subtitle": "我在 AI 和科技行业的实习经验",
     "experience.responsibilities": "工作职责",
     "experience.achievements": "主要成就",
     "experience.viewDetails": "查看详情",

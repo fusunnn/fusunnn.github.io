@@ -91,31 +91,63 @@
 import { useLanguage } from "@/contexts/language-context"
 import { Badge } from "@/components/ui/badge"
 
+// const skills = [
+//   // 编程开发
+//   { name: "Python", category: "programming" },
+//   { name: "C", category: "programming" },
+//   { name: "SQL", category: "programming" },
+//   { name: "HTML5", category: "programming" },
+//   // 设计与原型
+//   { name: "Axure", category: "design" },
+//   { name: "XMind", category: "design" },
+//   { name: "Visio", category: "design" },
+//   { name: "PS", category: "design" },
+//   { name: "PR", category: "design" },
+//   { name: "Ai", category: "design" },
+//   // 数据分析
+//   { name: "Data Analysis", category: "analysis" },
+//   { name: "Data Visualization", category: "analysis" },
+//   // 新闻采编（新增分类）
+//   { name: "Interviewing", category: "journalism" },
+//   { name: "Photography", category: "journalism" },
+//   { name: "Video Editing", category: "journalism" },
+//   { name: "Copywriting", category: "journalism" },
+//   { name: "News Writing", category: "journalism" },
+//   // 办公工具（新增分类）
+//   { name: "Office", category: "office" },
+// ]
+
 const skills = [
   // 编程开发
-  { name: "Python", category: "programming" },
-  { name: "C", category: "programming" },
-  { name: "SQL", category: "programming" },
-  { name: "HTML5", category: "programming" },
-  // 设计与原型
-  { name: "Axure", category: "design" },
-  { name: "XMind", category: "design" },
-  { name: "Visio", category: "design" },
-  { name: "PS", category: "design" },
-  { name: "PR", category: "design" },
-  { name: "Ai", category: "design" },
+  { nameEn: "Python", nameZh: "Python", category: "programming" },
+  { nameEn: "C", nameZh: "C语言", category: "programming" },
+  { nameEn: "SQL", nameZh: "SQL", category: "programming" },
+  { nameEn: "HTML5", nameZh: "HTML5", category: "programming" },
+  
   // 数据分析
-  { name: "Data Analysis", category: "analysis" },
-  { name: "Data Visualization", category: "analysis" },
-  // 新闻采编（新增分类）
-  { name: "Interviewing", category: "journalism" },
-  { name: "Photography", category: "journalism" },
-  { name: "Video Editing", category: "journalism" },
-  { name: "Copywriting", category: "journalism" },
-  { name: "News Writing", category: "journalism" },
-  // 办公工具（新增分类）
-  { name: "Office", category: "office" },
+  { nameEn: "Data Analysis", nameZh: "数据分析", category: "analysis" },
+  { nameEn: "Data Visualization", nameZh: "数据可视化", category: "analysis" },
+  
+  // 设计与原型
+  { nameEn: "Axure", nameZh: "Axure", category: "design" },
+  { nameEn: "XMind", nameZh: "XMind", category: "design" },
+  { nameEn: "Visio", nameZh: "Visio", category: "design" },
+  { nameEn: "Photoshop", nameZh: "Photoshop", category: "design" },
+  { nameEn: "Premiere", nameZh: "Premiere", category: "design" },
+  { nameEn: "Illustrator", nameZh: "Illustrator", category: "design" },
+  
+  // 新闻采编
+  { nameEn: "Interviewing", nameZh: "采访", category: "journalism" },
+  { nameEn: "Photography", nameZh: "摄影", category: "journalism" },
+  { nameEn: "Video Editing", nameZh: "剪辑", category: "journalism" },
+  { nameEn: "Copywriting", nameZh: "广告文案", category: "journalism" },
+  { nameEn: "News Writing", nameZh: "新闻写作", category: "journalism" },
+  
+  // 办公工具
+  { nameEn: "Office", nameZh: "Office", category: "office" },
 ]
+
+
 
 const skillCategories = {
   programming: { en: "Programming", zh: "编程" },
@@ -129,13 +161,26 @@ export default function SkillsSection() {
   const { t, language } = useLanguage()
 
   // 按分类整理技能
-  const skillsByCategory = skills.reduce((acc, skill) => {
+  // const skillsByCategory = skills.reduce((acc, skill) => {
+  //   if (!acc[skill.category]) {
+  //     acc[skill.category] = []
+  //   }
+  //   acc[skill.category].push(skill.name)
+  //   return acc
+  // }, {} as Record<string, string[]>)
+
+
+    const skillsByCategory = skills.reduce((acc, skill) => {
     if (!acc[skill.category]) {
       acc[skill.category] = []
     }
-    acc[skill.category].push(skill.name)
+    acc[skill.category].push({ 
+      nameEn: skill.nameEn, 
+      nameZh: skill.nameZh 
+    })
     return acc
-  }, {} as Record<string, string[]>)
+  }, {} as Record<string, { nameEn: string; nameZh: string }[]>)
+
 
   return (
     <section id="skills" className="py-20 relative">
@@ -151,15 +196,16 @@ export default function SkillsSection() {
           </p>
         </div>
 
+
         <div className="flex flex-wrap justify-center gap-4">
           {skills.map((skill, index) => (
             <Badge
-              key={skill.name}
+              key={skill.nameEn}
               variant="outline"
               className="glass glass-hover px-6 py-3 text-base md:text-lg font-medium text-white border-white/20 hover:border-white/40 transition-all duration-300 hover:scale-105 cursor-default"
               style={{ animationDelay: `${index * 50}ms` }}
             >
-              {skill.name}
+              {language === "en" ? skill.nameEn : skill.nameZh}
             </Badge>
           ))}
         </div>
@@ -172,7 +218,7 @@ export default function SkillsSection() {
                 {language === "en" ? label.en : label.zh}
               </h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {skillsByCategory[key]?.map((skillName) => {
+                {/* {skillsByCategory[key]?.map((skillName) => {
                   // 根据分类设置不同颜色
                   let colorClass = "bg-blue-500/20 text-blue-300 border-blue-500/30"
                   if (key === "design") colorClass = "bg-purple-500/20 text-purple-300 border-purple-500/30"
@@ -183,6 +229,19 @@ export default function SkillsSection() {
                   return (
                     <Badge key={skillName} className={colorClass}>
                       {skillName}
+                    </Badge>
+                  )
+                })} */}
+                {skillsByCategory[key]?.map((skill) => {
+                  let colorClass = "bg-blue-500/20 text-blue-300 border-blue-500/30"
+                  if (key === "design") colorClass = "bg-purple-500/20 text-purple-300 border-purple-500/30"
+                  if (key === "analysis") colorClass = "bg-green-500/20 text-green-300 border-green-500/30"
+                  if (key === "journalism") colorClass = "bg-orange-500/20 text-orange-300 border-orange-500/30"
+                  if (key === "office") colorClass = "bg-gray-500/20 text-gray-300 border-gray-500/30"
+                  
+                  return (
+                    <Badge key={skill.nameEn} className={colorClass}>
+                      {language === "en" ? skill.nameEn : skill.nameZh}
                     </Badge>
                   )
                 })}

@@ -55,7 +55,7 @@ export default function HeroSection() {
               {t("hero.name")}
             </h1>
 
-            <p className="text-sm sm:text-lg md:text-xl text-white/70 max-w-2xl mx-auto leading-relaxed px-4 animate-slide-up" style={{ animationDelay: "0.2s" }}>
+            <p className="text-sm sm:text-lg md:text-xl text-white/70 max-w-3xl mx-auto leading-relaxed px-4 animate-slide-up" style={{ animationDelay: "0.2s" }}>
               {t("hero.tagline")}
             </p>
           </div>

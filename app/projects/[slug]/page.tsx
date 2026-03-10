@@ -94,7 +94,7 @@ export default function ProjectDetailPage() {
       contentZh: project.contextZh,
       icon: <AlertCircle className="w-5 h-5" />,
       color: "red",
-      emoji: "🌍",
+      // emoji: "🌍",
     },
     {
       id: "approach",
@@ -104,7 +104,7 @@ export default function ProjectDetailPage() {
       contentZh: project.approachZh,
       icon: <Lightbulb className="w-5 h-5" />,
       color: "yellow",
-      emoji: "💡",
+      // emoji: "💡",
     },
     {
       id: "impact",
@@ -114,7 +114,7 @@ export default function ProjectDetailPage() {
       contentZh: project.impactZh,
       icon: <CheckCircle className="w-5 h-5" />,
       color: "green",
-      emoji: "🚀",
+      // emoji: "🚀",
     },
   ]
 
@@ -125,6 +125,10 @@ export default function ProjectDetailPage() {
     red: "bg-red-500",
     yellow: "bg-yellow-500",
     green: "bg-green-500",
+
+
+
+
   }
 
   // return (
@@ -372,6 +376,21 @@ export default function ProjectDetailPage() {
               </div>
             </div>
           )}
+
+          {project.visionEn && project.visionZh && (
+            <div className="mt-16 mb-8 text-center">
+              <div className="max-w-3xl mx-auto glass rounded-xl p-8 border border-white/10">
+                <p className="text-white/80 text-lg italic leading-relaxed">
+                  " {language === "en" ? project.visionEn : project.visionZh} "
+                </p>
+                <div className="mt-4 text-white/50 text-sm">
+                  —— {language === "en" ? "Project Vision" : "项目愿景"}
+                </div>
+              </div>
+            </div>
+          )}
+
+
         </div>
       </section>
 

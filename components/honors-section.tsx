@@ -182,6 +182,14 @@ const honors: Honor[] = [
     icon: <Gift className="w-6 h-6" />,
   },
   {
+    id: "scholarship-2526-1",
+    nameEn: "Outstanding Student Scholarship - Second Prize",
+    nameZh: "优秀学生奖学金 二等奖",
+    year: 2025,
+    semester: "Spring",
+    icon: <Gem className="w-6 h-6" />,
+  },
+  {
     id: "apmcm",
     nameEn: "Second Prize, Asia-Pacific Mathematical Contest in Modeling (APMCM)",
     nameZh: "亚太地区大学生数学建模竞赛 二等奖",
@@ -215,7 +223,7 @@ const honors: Honor[] = [
     semester: "Fall",
     icon: <Flame className="w-6 h-6" />,
   },
-    {
+  {
     id: "scholarship-2324-2",
     nameEn: "Outstanding Student Scholarship - Second Prize",
     nameZh: "优秀学生奖学金 二等奖",
@@ -223,7 +231,7 @@ const honors: Honor[] = [
     semester: "Spring",
     icon: <Gem className="w-6 h-6" />,
   },
-    {
+  {
     id: "scholarship-2324-1",
     nameEn: "Outstanding Student Scholarship - Second Prize",
     nameZh: "优秀学生奖学金 二等奖",
@@ -231,7 +239,7 @@ const honors: Honor[] = [
     semester: "Fall",
     icon: <Gem className="w-6 h-6" />,
   },
-    {
+  {
     id: "scholarship-2223-2",
     nameEn: "Outstanding Student Scholarship - Third Prize",
     nameZh: "优秀学生奖学金 三等奖",
@@ -239,7 +247,7 @@ const honors: Honor[] = [
     semester: "Spring",
     icon: <Star className="w-6 h-6" />,
   },
-    {
+  {
     id: "scholarship-2223-1",
     nameEn: "Outstanding Student Scholarship - Third Prize",
     nameZh: "优秀学生奖学金 三等奖",
