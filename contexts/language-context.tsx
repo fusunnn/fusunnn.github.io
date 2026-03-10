@@ -26,8 +26,10 @@ const translations = {
     "nav.backHome": "Back to Home",
 
     // Hero Section
-    "hero.greeting": "Welcome to my portfolio",
-    "hero.title": "AI Product & Data Enthusiast",
+    "hero.greeting": "Welcome to my website",
+    "hero.name": "Lei Yiting", 
+    "hero.title": "Network and New Media Student | Journalism & Technology",
+    "hero.tagline": "Exploring the intersection of AI, research, and product thinking.",
     "hero.description": "Undergraduate student at Shanghai International Studies University with experience in AI systems, recommendation systems, data journalism, and digital media production.",
     "hero.viewProjects": "View Projects",
     "hero.downloadResumeEn": "Resume (EN)",
@@ -35,12 +37,11 @@ const translations = {
 
     // Projects Section
     "projects.title": "Projects",
-    "projects.subtitle": "Selected projects showcasing my work in AI, data analysis, and product design",
+    "projects.subtitle": "Projects in AI, data analysis, and product design",
     "projects.viewDetails": "View Details",
-    "projects.overview": "Overview",
-    "projects.problem": "Problem",
-    "projects.method": "Method",
-    "projects.results": "Results",
+    "projects.context": "Context",
+    "projects.approach": "Approach",
+    "projects.impact": "Impact",
     "projects.viewProject": "View Project",
 
     // Experience Section
@@ -77,14 +78,16 @@ const translations = {
     "bio.goals": "Career Goals",
 
     // Footer / Contact
-    "footer.connect": "LET'S CONNECT",
-    "footer.connect.project": "Have a project in mind?",
-    "footer.made": "MADE WITH",
+    "footer.connect": "Let's Connect",
+    "footer.connect.project": "Let’s connect and build something meaningful together.",
+    "footer.made": "Made with",
     "contact.title": "Contact",
     "contact.email": "Email",
-    "contact.github": "GitHub",
-    "contact.linkedin": "LinkedIn",
+    "contact.phone": "Phone",
+    "contact.wechat": "WeChat",
+    "contact.qq": "QQ",
   },
+  
   zh: {
     // Navbar
     "nav.home": "首页",
@@ -98,26 +101,28 @@ const translations = {
     "nav.backHome": "返回首页",
 
     // Hero Section
-    "hero.greeting": "欢迎来到我的作品集",
-    "hero.title": "AI 产品与数据爱好者",
+    "hero.greeting": "欢迎来到我的个人网站",
+    "hero.name": "雷怡婷",
+    "hero.tagline": "探索人工智能、研究与产品思维的交叉领域。",
+
+    "hero.title": "网络与新媒体专业 | 新闻传播与技术",
     "hero.description": "上海外国语大学本科生，在 AI 系统、推荐系统、数据新闻和数字媒体制作方面拥有丰富经验。",
     "hero.viewProjects": "查看项目",
-    "hero.downloadResumeEn": "简历 (英文)",
     "hero.downloadResumeZh": "简历 (中文)",
+    "hero.downloadResumeEn": "简历 (英文)",
 
     // Projects Section
     "projects.title": "项目",
-    "projects.subtitle": "展示我在 AI、数据分析和产品设计方面的精选项目",
+    "projects.subtitle": "我在 AI、数据分析和产品设计等方面的项目",
     "projects.viewDetails": "查看详情",
-    "projects.overview": "项目概述",
-    "projects.problem": "问题背景",
-    "projects.method": "方法论",
-    "projects.results": "成果",
+    "projects.context": "项目背景",
+    "projects.approach": "解决方案",
+    "projects.impact": "项目成果",
     "projects.viewProject": "查看项目",
 
     // Experience Section
     "experience.title": "经历",
-    "experience.subtitle": "AI 和科技行业的专业经验",
+    "experience.subtitle": "我在 AI 和科技行业的专业经验",
     "experience.responsibilities": "工作职责",
     "experience.achievements": "主要成就",
     "experience.viewDetails": "查看详情",
@@ -128,19 +133,19 @@ const translations = {
 
     // Papers Section
     "papers.title": "学术论文",
-    "papers.subtitle": "学术论文与研究贡献",
+    "papers.subtitle": "我的学术论文与研究贡献",
     "papers.viewOnIEEE": "在 IEEE Xplore 查看",
 
     // Education Section
     "education.title": "教育背景",
-    "education.subtitle": "学术背景与成就",
+    "education.subtitle": "我的学术背景与成就",
     "education.gpa": "绩点",
     "education.activities": "校园活动",
     "education.research": "研究兴趣",
 
     // Honors Section
     "honors.title": "荣誉与奖项",
-    "honors.subtitle": "获得的认可与成就",
+    "honors.subtitle": "我获得的认可与成就",
 
     // Bio Section
     "bio.title": "关于我",
@@ -150,12 +155,13 @@ const translations = {
 
     // Footer / Contact
     "footer.connect": "联系我",
-    "footer.connect.project": "有项目想法？",
+    "footer.connect.project": "欢迎联系我，一起创造一些有价值的事情。",
     "footer.made": "制作于",
     "contact.title": "联系方式",
     "contact.email": "邮箱",
-    "contact.github": "GitHub",
-    "contact.linkedin": "领英",
+    "contact.phone": "手机",
+    "contact.wechat": "微信",
+    "contact.qq": "QQ",
   },
 }
 

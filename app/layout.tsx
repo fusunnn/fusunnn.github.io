@@ -13,24 +13,25 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "AI Product & Data Enthusiast | Personal Portfolio",
+  title: "Lei Yiting | Network and New Media | Personal Portfolio",
   description:
-    "Personal portfolio of an undergraduate student at Shanghai International Studies University with experience in AI systems, recommendation systems, data journalism, and digital media production.",
+      "Network and New Media student at Shanghai International Studies University, specializing in AIGC content verification, machine vision advertising systems, data journalism, and digital media production.",
   keywords: [
-    "AI",
-    "product design",
-    "data analysis",
-    "recommendation systems",
-    "knowledge graph",
-    "data journalism",
-    "digital media",
+    "雷怡婷",
+    "Lei Yiting",
+    "网络与新媒体",
+    "AIGC内容验证",
+    "机器视觉",
+    "广告推荐系统",
+    "数据新闻",
+    "数字媒体",
     "Python",
-    "machine learning",
-    "UX research",
+    "知识图谱",
+    "上海外国语大学",
   ],
-  authors: [{ name: "Portfolio" }],
-  creator: "Portfolio",
-  publisher: "Portfolio",
+  authors: [{ name: "雷怡婷" }],
+  creator: "雷怡婷",
+  publisher: "雷怡婷",
   robots: {
     index: true,
     follow: true,
@@ -46,9 +47,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "zh_CN",
     alternateLocale: "en_US",
-    url: "https://portfolio.example.com",
-    siteName: "Personal Portfolio",
-    title: "AI Product & Data Enthusiast | Personal Portfolio",
+    url: "https://leiyiting.com",
+    siteName: "Lei Yiting Personal Website",
+    title: "Exploring the intersection of AI, research, and product thinking.",
     description:
       "Personal portfolio showcasing AI systems, recommendation systems, data journalism, and digital media production projects.",
     images: [
@@ -68,10 +69,10 @@ export const metadata: Metadata = {
     images: ["/images/portfolioimage.png"],
   },
   alternates: {
-    canonical: "https://portfolio.example.com",
+    canonical: "https://leiyiting.com",
     languages: {
-      "zh-CN": "https://portfolio.example.com/zh",
-      "en-US": "https://portfolio.example.com/en",
+      "zh-CN": "https://leiyiting.com/zh",
+      "en-US": "https://leiyiting.com/en",
     },
   },
   generator: "v0.app",

@@ -13,10 +13,10 @@ export default function HeroSection() {
   }
 
   const downloadResume = (lang: "en" | "zh") => {
-    const filePath = lang === "en" ? "/assets/resume-en.pdf" : "/assets/resume-cn.pdf"
+    const filePath = lang === "en" ? "/assets/YitingLei_SISU_2026.pdf" : "/assets/雷怡婷_上外_2026.pdf"
     const link = document.createElement("a")
     link.href = filePath
-    link.download = lang === "en" ? "Resume_EN.pdf" : "Resume_CN.pdf"
+    link.download = lang === "en" ? "YitingLei_SISU_2026.pdf" : "雷怡婷_上外_2026.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -35,7 +35,7 @@ export default function HeroSection() {
           <div className="flex items-center justify-center mb-6 sm:mb-8">
             <div className="glass rounded-full p-1 mr-3 sm:mr-4 hover:scale-105 transition-transform duration-300">
               <Image
-                src="/images/profile.jpg"
+                src="/images/lydia/3_1.jpg"
                 alt="Profile photo"
                 width={80}
                 height={80}
@@ -52,13 +52,14 @@ export default function HeroSection() {
           {/* Main Title */}
           <div className="relative mb-6 sm:mb-8">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white px-2 mb-6 animate-slide-up" style={{ animationDelay: "0.1s" }}>
-              {t("hero.title")}
+              {t("hero.name")}
             </h1>
 
             <p className="text-sm sm:text-lg md:text-xl text-white/70 max-w-2xl mx-auto leading-relaxed px-4 animate-slide-up" style={{ animationDelay: "0.2s" }}>
-              {t("hero.description")}
+              {t("hero.tagline")}
             </p>
           </div>
+
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 animate-slide-up" style={{ animationDelay: "0.3s" }}>
@@ -73,14 +74,6 @@ export default function HeroSection() {
           {/* Resume Download Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-12 animate-slide-up" style={{ animationDelay: "0.4s" }}>
             <Button
-              onClick={() => downloadResume("en")}
-              variant="outline"
-              className="bg-transparent border border-white/20 hover:border-white/40 text-white/80 hover:text-white font-medium px-6 py-3 group transition-all duration-300 hover:scale-105 hover:bg-white/5"
-            >
-              <Download className="w-4 h-4 mr-2" />
-              {t("hero.downloadResumeEn")}
-            </Button>
-            <Button
               onClick={() => downloadResume("zh")}
               variant="outline"
               className="bg-transparent border border-white/20 hover:border-white/40 text-white/80 hover:text-white font-medium px-6 py-3 group transition-all duration-300 hover:scale-105 hover:bg-white/5"
@@ -88,6 +81,16 @@ export default function HeroSection() {
               <Download className="w-4 h-4 mr-2" />
               {t("hero.downloadResumeZh")}
             </Button>
+            
+            <Button
+              onClick={() => downloadResume("en")}
+              variant="outline"
+              className="bg-transparent border border-white/20 hover:border-white/40 text-white/80 hover:text-white font-medium px-6 py-3 group transition-all duration-300 hover:scale-105 hover:bg-white/5"
+            >
+              <Download className="w-4 h-4 mr-2" />
+              {t("hero.downloadResumeEn")}
+            </Button>
+
           </div>
 
           {/* Scroll Button */}

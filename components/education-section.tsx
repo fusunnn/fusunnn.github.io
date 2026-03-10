@@ -21,11 +21,11 @@ interface Education {
 const education: Education = {
   universityEn: "Shanghai International Studies University",
   universityZh: "上海外国语大学",
-  majorEn: "Digital Media and Communication",
-  majorZh: "数字媒体与传播",
-  durationEn: "2020.09 - 2024.06",
-  durationZh: "2020.09 - 2024.06",
-  gpa: "3.8/4.0",
+  majorEn: "Network and New Media",
+  majorZh: "网络与新媒体",
+  durationEn: "2022.09 - 2026.06",
+  durationZh: "2022.09 - 2026.06",
+  gpa: "3.78/4.0",
   activitiesEn: [
     "President of AI & Data Science Club",
     "Student Ambassador for International Exchange",
@@ -37,16 +37,16 @@ const education: Education = {
     "科技创新峰会志愿者",
   ],
   researchEn: [
+    "Data Journalism",
     "Natural Language Processing",
     "Knowledge Graphs",
-    "Human-Computer Interaction",
-    "Data Journalism",
+    "Computer Vision",
   ],
   researchZh: [
+    "数据新闻",
     "自然语言处理",
     "知识图谱",
-    "人机交互",
-    "数据新闻",
+    "计算机视觉",
   ],
 }
 

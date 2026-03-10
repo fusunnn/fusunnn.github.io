@@ -12,12 +12,15 @@ export default function BioSection() {
 
   const bioContent = {
     en: {
-      intro: `I am a final-year undergraduate student at Shanghai International Studies University, majoring in Digital Media and Communication. My academic journey has been driven by a deep curiosity about the intersection of technology and human communication.`,
-      passion: `I am passionate about creating AI systems that are both powerful and human-centered. Beyond academics, I am fascinated by the rapidly evolving landscape of AI and its applications in everyday life.`,
+      intro: `I am a final-year undergraduate at Shanghai International Studies University, majoring in Network and New Media. I am interested in the intersection of technology, data, media, and human communication.`,
+
+      passion: `I enjoy exploring how AI, data analysis, and product thinking can be combined to build useful and meaningful digital experiences. With a background in digital media and communication, I am also curious about how emerging technologies are reshaping storytelling, information flow, and the way people understand the world.`,
     },
+
     zh: {
-      intro: `我是上海外国语大学数字媒体与传播专业的大四学生。我的学术之旅源于对技术与人类沟通交汇点的深刻好奇心。`,
-      passion: `我热衷于创建既强大又以人为本的 AI 系统。在学术之外，我对 AI 及其在日常生活中应用的快速发展充满兴趣。`,
+      intro: `我是上海外国语大学网络与新媒体专业的大四学生，对技术、数据、媒体与人类沟通之间的交汇领域充满兴趣。`,
+
+      passion: `我关注 AI、数据分析与产品思维如何结合，创造有价值的数字产品体验。基于数字媒体与传播的学习背景，我也持续关注新技术如何改变信息传播方式、叙事形态，以及人们理解世界的方式。`,
     },
   }
 
@@ -48,7 +51,7 @@ export default function BioSection() {
                 }}
               >
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/lydia/2_1.jpg"
                   alt="Profile photo"
                   fill
                   className="object-cover"
@@ -89,13 +92,13 @@ export default function BioSection() {
                   {language === "en" ? "Read More About Me" : "了解更多"} →
                 </Button>
               </Link>
-              <Button
+              {/* <Button
                 className="glass border border-blue-500/50 hover:border-blue-400 text-blue-400 font-semibold px-6 py-3 group transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20 hover:bg-blue-500/10"
-                onClick={() => window.open("mailto:your.email@example.com", "_blank")}
+                onClick={() => window.open("mailto:yitinglei2004@163.com", "_blank")}
               >
                 <MessageCircle className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
                 {t("about.cta")} 💬
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>

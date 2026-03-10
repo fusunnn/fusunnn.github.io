@@ -19,26 +19,35 @@ export default function BioPage() {
 
   const bioContent = {
     en: {
-      background: `I am a final-year undergraduate student at Shanghai International Studies University, majoring in Digital Media and Communication. My academic journey has been driven by a deep curiosity about the intersection of technology and human communication.
+      background: `I am a final-year undergraduate at Shanghai International Studies University, majoring in Digital Media and Communication (GPA: 3.78/4.0).
 
-Throughout my studies, I have developed a strong foundation in data analysis, natural language processing, and digital media production. I believe that technology should serve to enhance human connection and understanding, which is why I am passionate about creating AI systems that are both powerful and human-centered.`,
-      interests: `Beyond academics, I am fascinated by the rapidly evolving landscape of AI and its applications in everyday life. I enjoy exploring new technologies, reading about cognitive science, and understanding how machines can better serve human needs.
+  CET-4: 584 | CET-6: 568 | TEM-4: Excellent. I am fluent in both Chinese and English, with strong reading and writing proficiency.
 
-I am also deeply interested in data journalism and visual storytelling. I believe that data, when presented thoughtfully, can illuminate important truths and drive meaningful conversations. In my free time, I enjoy photography, playing chess, and contributing to open-source projects.`,
-      goals: `My career goal is to become a product leader who bridges the gap between cutting-edge AI technology and real-world user needs. I want to build products that are not only technically sophisticated but also intuitive and accessible to everyone.
+  During my studies, I developed a solid foundation in data analysis, natural language processing, and digital media production. I am particularly interested in how technology shapes human communication, and I enjoy exploring the intersection of AI, data, and media.`,
 
-In the short term, I am looking for opportunities to gain hands-on experience in AI product management and data-driven decision making. Long term, I aspire to lead teams that create innovative solutions addressing important social challenges.`,
+      interests: `Beyond academics, I am fascinated by the rapidly evolving world of AI and its growing role in everyday life. I enjoy exploring emerging technologies, reading about cognitive science, and thinking about how intelligent systems can better serve human needs.
+
+  I am also deeply interested in data journalism and visual storytelling. When presented thoughtfully, data can reveal important insights and spark meaningful conversations. In my free time, I enjoy photography and working out.`,
+
+      goals: `My goal is to become a product leader who bridges cutting-edge AI technology with real-world user needs. I want to build products that are not only technically powerful but also intuitive and human-centered.
+
+  In the short term, I am seeking opportunities to gain hands-on experience in AI product management and data-driven decision making. In the long term, I hope to lead teams that create innovative solutions addressing meaningful social challenges.`,
     },
+
     zh: {
-      background: `我是上海外国语大学数字媒体与传播专业的大四学生。我的学术之旅源于对技术与人类沟通交汇点的深刻好奇心。
+      background: `我是上海外国语大学网络与新媒体专业的大四学生，绩点 3.78 / 4.0。
 
-在学习过程中，我在数据分析、自然语言处理和数字媒体制作方面建立了扎实的基础。我相信技术应该服务于增强人与人之间的联系和理解，这就是为什么我热衷于创建既强大又以人为本的 AI 系统。`,
-      interests: `在学术之外，我对 AI 及其在日常生活中应用的快速发展充满兴趣。我喜欢探索新技术，阅读认知科学相关内容，并理解机器如何更好地服务于人类需求。
+  大学英语四级 584、六级 568、专业四级优秀，中英文读写流利。
 
-我对数据新闻和视觉叙事也有浓厚的兴趣。我相信，当数据被精心呈现时，可以揭示重要的真相并推动有意义的对话。在空闲时间，我喜欢摄影、下棋和为开源项目做贡献。`,
-      goals: `我的职业目标是成为一名能够弥合前沿 AI 技术与现实用户需求之间差距的产品负责人。我想构建不仅技术先进，而且对每个人都直观易用的产品。
+  在大学期间，我逐步建立了数据分析、自然语言处理和数字媒体制作方面的基础能力。我尤其关注技术如何影响人与人之间的沟通，并持续探索 AI、数据与媒体之间的交叉领域。`,
 
-短期内，我正在寻找在 AI 产品管理和数据驱动决策方面获得实践经验的机会。长期来看，我渴望领导团队创建解决重要社会挑战的创新解决方案。`,
+      interests: `在学术之外，我对 AI 技术及其在日常生活中的应用充满兴趣。我喜欢关注新技术的发展，也喜欢阅读认知科学相关内容，思考智能系统如何更好地服务于人类需求。
+
+  同时，我对数据新闻与视觉叙事也非常感兴趣。我相信，当数据被清晰而有逻辑地呈现时，可以帮助人们理解复杂问题，并引发有价值的公共讨论。闲暇时间里，我喜欢摄影、健身。`,
+
+      goals: `我的职业目标是成为一名能够连接前沿 AI 技术与真实用户需求的产品负责人。我希望构建既具备技术深度，又直观易用、以人为中心的产品。
+
+  短期来看，我希望在产品经理和数据驱动决策相关领域积累实践经验；长期来看，我希望能够带领团队打造解决重要社会问题的创新产品。`,
     },
   }
 
@@ -61,13 +70,13 @@ In the short term, I am looking for opportunities to gain hands-on experience in
                   <div 
                     className="relative overflow-hidden border-2 border-white/20 shadow-2xl transition-all duration-500 hover:border-white/30 hover:shadow-blue-500/20"
                     style={{
-                      width: "260px",
-                      height: "360px",
+                      width: "360px",
+                      height: "560px",
                       borderRadius: "50% / 40%",
                     }}
                   >
                     <Image
-                      src="/images/profile.jpg"
+                      src="/images/lydia/2_1.jpg"
                       alt="Profile photo"
                       fill
                       className="object-cover"
@@ -135,7 +144,7 @@ In the short term, I am looking for opportunities to gain hands-on experience in
                 </Card>
 
                 {/* Contact Button */}
-                <div className="pt-4">
+                {/* <div className="pt-4">
                   <Button
                     className="glass border border-white/20 hover:border-white/40 text-white font-semibold px-8 py-4 group transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-white/10 hover:bg-white/10"
                     onClick={() => window.open("mailto:your.email@example.com", "_blank")}
@@ -143,14 +152,15 @@ In the short term, I am looking for opportunities to gain hands-on experience in
                     <MessageCircle className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
                     {t("about.cta")}
                   </Button>
-                </div>
+                </div> */}
+
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </main>
   )
 }

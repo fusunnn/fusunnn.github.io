@@ -122,7 +122,7 @@ export default function ExperienceDetailPage() {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </main>
   )
 }

@@ -1,8 +1,98 @@
+// "use client"
+
+// import { Button } from "@/components/ui/button"
+// import { useLanguage } from "@/contexts/language-context"
+// import { Mail, Github, Linkedin, Download } from "lucide-react"
+
+// export default function Footer() {
+//   const { t, language } = useLanguage()
+
+//   return (
+//     <footer id="contact" className="py-20 relative">
+//       <div className="absolute inset-0 bg-gradient-to-t from-black to-gray-900"></div>
+
+//       <div className="relative z-10 max-w-4xl mx-auto px-6">
+//         <div className="text-center mb-12">
+//           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+//             {t("contact.title")}
+//           </h2>
+//           <p className="text-lg text-white/75 max-w-2xl mx-auto">
+//             {t("footer.connect.project")}
+//           </p>
+//         </div>
+
+//         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+//           {/* Email */}
+//           <a
+//             href="mailto:your.email@example.com"
+//             className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105"
+//           >
+//             <div className="glass rounded-full p-3 w-fit mx-auto mb-4 group-hover:scale-110 transition-transform">
+//               <Mail className="w-6 h-6 text-white" />
+//             </div>
+//             <h3 className="text-white font-semibold mb-1">{t("contact.email")}</h3>
+//             <p className="text-white/70 text-sm">yitinglei2004@163.com</p>
+//           </a>
+
+//           {/* GitHub */}
+//           <a
+//             href="https://github.com/yourusername"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105"
+//           >
+//             <div className="glass rounded-full p-3 w-fit mx-auto mb-4 group-hover:scale-110 transition-transform">
+//               <Github className="w-6 h-6 text-white" />
+//             </div>
+//             <h3 className="text-white font-semibold mb-1">{t("contact.github")}</h3>
+//             <p className="text-white/70 text-sm">@yourusername</p>
+//           </a>
+
+//           {/* LinkedIn */}
+//           <a
+//             href="https://linkedin.com/in/yourusername"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105"
+//           >
+//             <div className="glass rounded-full p-3 w-fit mx-auto mb-4 group-hover:scale-110 transition-transform">
+//               <Linkedin className="w-6 h-6 text-white" />
+//             </div>
+//             <h3 className="text-white font-semibold mb-1">{t("contact.linkedin")}</h3>
+//             <p className="text-white/70 text-sm">@yourusername</p>
+//           </a>
+
+//           {/* Resume */}
+//           <a
+//             href="/resume.pdf"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105"
+//           >
+//             <div className="glass rounded-full p-3 w-fit mx-auto mb-4 group-hover:scale-110 transition-transform">
+//               <Download className="w-6 h-6 text-white" />
+//             </div>
+//             <h3 className="text-white font-semibold mb-1">{t("contact.resume")}</h3>
+//             <p className="text-white/70 text-sm">PDF</p>
+//           </a>
+//         </div>
+
+//         {/* Copyright */}
+//         <div className="flex justify-center items-center pt-8 border-t border-white/10">
+//           <div className="text-white/75 text-sm">
+//             {t("footer.made")} <span className="text-red-500">v0</span> © 2026
+//           </div>
+//         </div>
+//       </div>
+//     </footer>
+//   )
+// }
+
 "use client"
 
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
-import { Mail, Github, Linkedin, Download } from "lucide-react"
+import { Mail, Phone, MessageCircle, QrCode } from "lucide-react"
 
 export default function Footer() {
   const { t, language } = useLanguage()
@@ -22,59 +112,60 @@ export default function Footer() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {/* Email */}
+          {/* Email 邮箱 */}
           <a
-            href="mailto:your.email@example.com"
+            href="yitinglei2004@163.com"
             className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105"
           >
             <div className="glass rounded-full p-3 w-fit mx-auto mb-4 group-hover:scale-110 transition-transform">
               <Mail className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-white font-semibold mb-1">{t("contact.email")}</h3>
-            <p className="text-white/70 text-sm">your.email@example.com</p>
+            <p className="text-white/70 text-sm">yitinglei2004@163.com</p>
           </a>
 
-          {/* GitHub */}
+          {/* Phone 手机号 */}
           <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="tel:+8613020864475"
             className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105"
           >
             <div className="glass rounded-full p-3 w-fit mx-auto mb-4 group-hover:scale-110 transition-transform">
-              <Github className="w-6 h-6 text-white" />
+              <Phone className="w-6 h-6 text-white" />
             </div>
-            <h3 className="text-white font-semibold mb-1">{t("contact.github")}</h3>
-            <p className="text-white/70 text-sm">@yourusername</p>
+            <h3 className="text-white font-semibold mb-1">{t("contact.phone") || "手机"}</h3>
+            <p className="text-white/70 text-sm">130-2086-4475</p>
           </a>
 
-          {/* LinkedIn */}
-          <a
-            href="https://linkedin.com/in/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105"
+          {/* WeChat 微信 */}
+          <div
+            className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105 cursor-pointer"
+            onClick={() => {
+              // 这里可以添加点击复制微信号的功能
+              navigator.clipboard?.writeText("Lxxqw_")
+              alert(language === "en" ? "WeChat ID copied!" : "微信号已复制")
+            }}
           >
             <div className="glass rounded-full p-3 w-fit mx-auto mb-4 group-hover:scale-110 transition-transform">
-              <Linkedin className="w-6 h-6 text-white" />
+              <MessageCircle className="w-6 h-6 text-white" />
             </div>
-            <h3 className="text-white font-semibold mb-1">{t("contact.linkedin")}</h3>
-            <p className="text-white/70 text-sm">@yourusername</p>
-          </a>
+            <h3 className="text-white font-semibold mb-1">{t("contact.wechat") || "微信"}</h3>
+            <p className="text-white/70 text-sm">Lxxqw_</p>
+          </div>
 
-          {/* Resume */}
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105"
+          {/* QQ */}
+          <div
+            className="glass glass-hover rounded-xl p-6 text-center group transition-all duration-300 hover:scale-105 cursor-pointer"
+            onClick={() => {
+              navigator.clipboard?.writeText("2078473801")
+              alert(language === "en" ? "QQ number copied!" : "QQ号已复制")
+            }}
           >
             <div className="glass rounded-full p-3 w-fit mx-auto mb-4 group-hover:scale-110 transition-transform">
-              <Download className="w-6 h-6 text-white" />
+              <QrCode className="w-6 h-6 text-white" />
             </div>
-            <h3 className="text-white font-semibold mb-1">{t("contact.resume")}</h3>
-            <p className="text-white/70 text-sm">PDF</p>
-          </a>
+            <h3 className="text-white font-semibold mb-1">QQ</h3>
+            <p className="text-white/70 text-sm">2078473801</p>
+          </div>
         </div>
 
         {/* Copyright */}

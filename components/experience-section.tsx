@@ -23,69 +23,79 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    id: "zjtii",
+    companyEn: "Yangtze Delta Region Institute of Tsinghua University, Zhejiang",
+    companyZh: "浙江清华长三角研究院",
+    roleEn: "AI Research Intern",
+    roleZh: "AI科研实习生",
+    durationEn: "Jan 2025 - Mar 2025",
+    durationZh: "2025.01 - 2025.03",
+    descriptionEn: "Experienced how academic research can translate into real-world technological solutions.",
+    descriptionZh: "亲身体验了学术研究如何转化为现实世界的技术解决方案。",
+    responsibilitiesEn: [
+      "Deeply involved in core AI research projects and patent development",
+      "Conducted literature reviews and technical feasibility analysis on frontier AI topics",
+      "Wrote bilingual research reports and technical reviews",
+      "Assisted in project planning, progress tracking, and milestone coordination"
+    ],
+    responsibilitiesZh: [
+      "深度参与实验室核心AI科研项目和专利申请",
+      "负责前沿论文调研与技术可行性分析",
+      "撰写中英文科研报告与综述材料",
+      "协助制定项目详细计划，跟踪并协调项目进度，确保关键节点按时交付"
+    ],
+    achievementsEn: [
+      "Contributed to an AIGC hallucination detection project, including data collection, statistical analysis, and preliminary algorithm design",
+      "Assisted in the database design and system setup for a web platform",
+      "Participated in thread defect detection and grain-storage pest recognition projects",
+      "Drafted one patent disclosure document",
+      "Conducted global research and wrote three analytical reports, later adopted for project reference"
+    ],
+    achievementsZh: [
+      "参与AIGC幻觉检测项目，完成数据采集、数据统计和初步算法设计",
+      "协助完成 1 个网站的数据库设计和系统搭建",
+      "参与螺纹不合格检测项目、粮仓害虫识别项目并成功完成任务",
+      "撰写专利交底书 1 份",
+      "通过全球调研，撰写 3 份报告并被采纳使用",
+    ],
+  },
+  {
     id: "sensetime",
     companyEn: "SenseTime",
     companyZh: "商汤科技",
     roleEn: "Business Operations Intern",
-    roleZh: "商业运营实习生",
-    durationEn: "2023.06 - 2023.09",
-    durationZh: "2023.06 - 2023.09",
-    descriptionEn: "Worked on business operations and strategy for AI products, contributing to market analysis and product positioning.",
-    descriptionZh: "参与 AI 产品的商业运营和战略工作，为市场分析和产品定位做出贡献。",
+    roleZh: "商务运营实习生",
+    durationEn: "Jul 2024 - Sep 2024",
+    durationZh: "2024.07 - 2024.09",
+    descriptionEn: "Learned how business needs, client communication, and product delivery connect in real-world operations.",
+    descriptionZh: "在真实业务环境中理解了商业需求、客户沟通与产品交付之间的联系。",
     responsibilitiesEn: [
-      "Conducted market research and competitive analysis for AI products",
-      "Supported product positioning and go-to-market strategy development",
-      "Collaborated with cross-functional teams on business development initiatives",
-      "Prepared reports and presentations for senior management",
+      "Supported the business team in CRM and daily operations",
+      "Organized and analyzed client data, producing structured business reports and dashboards",
+      "Participated in the end-to-end process of product sales and delivery",
+      "Assisted in the planning and coordination of large-scale internal events",
+      "Responsible for event photography, video editing, and copywriting"
     ],
     responsibilitiesZh: [
-      "为 AI 产品进行市场研究和竞争分析",
-      "支持产品定位和上市策略制定",
-      "与跨职能团队合作开展业务发展计划",
-      "为高级管理层准备报告和演示文稿",
+      "支持商务团队，辅助团队进行客户关系管理",
+      "整理并分析客户数据，完成数据报表",
+      "参与产品销售、交付等全流程",
+      "协助策划和组织大型会议",
+      "负责会议摄影、视频剪辑及文案撰写"
     ],
     achievementsEn: [
-      "Identified 3 new market opportunities leading to pilot programs",
-      "Improved operational efficiency by 20% through process optimization",
-      "Contributed to successful launch of 2 AI product features",
+      "Produced 20+ business reports and maintained customer and operational datasets",
+      "Participated in 50+ product sales and delivery workflows",
+      "Assisted in organizing a 200+ participant all-hands meeting",
+      "Collected historical team materials and produced a 4-minute opening video for the meeting",
+      "Received positive feedback from the department"
     ],
     achievementsZh: [
-      "识别了 3 个新市场机会，促成试点项目",
-      "通过流程优化将运营效率提高了 20%",
-      "参与了 2 个 AI 产品功能的成功发布",
-    ],
-  },
-  {
-    id: "zjtii",
-    companyEn: "Zhejiang Tsinghua Yangtze River Delta Research Institute",
-    companyZh: "之江清华长三角研究院",
-    roleEn: "AI Research Intern",
-    roleZh: "AI 研究实习生",
-    durationEn: "2022.12 - 2023.03",
-    durationZh: "2022.12 - 2023.03",
-    descriptionEn: "Conducted research on AI systems and contributed to the development of innovative machine learning solutions.",
-    descriptionZh: "进行 AI 系统研究，为创新机器学习解决方案的开发做出贡献。",
-    responsibilitiesEn: [
-      "Researched and implemented machine learning algorithms",
-      "Processed and analyzed large-scale datasets",
-      "Collaborated with senior researchers on publication projects",
-      "Developed prototypes for AI applications",
-    ],
-    responsibilitiesZh: [
-      "研究和实现机器学习算法",
-      "处理和分析大规模数据集",
-      "与高级研究人员合作进行论文项目",
-      "开发 AI 应用原型",
-    ],
-    achievementsEn: [
-      "Co-authored 2 papers published in IEEE conferences",
-      "Developed a data processing pipeline reducing analysis time by 50%",
-      "Presented research findings at internal seminars",
-    ],
-    achievementsZh: [
-      "共同撰写了 2 篇发表在 IEEE 会议上的论文",
-      "开发了数据处理流水线，将分析时间减少了 50%",
-      "在内部研讨会上展示研究成果",
+      "完成 20+ 份数据报表和客户数据维护、商务数据维护",
+      "参与 50+ 项产品销售、交付等全流程",
+      "参与策划并组织 200+ 人规模的全员会议",
+      "整理部门成员过往资料，制作 4 min+ 暖场视频",
+      "获部门好评"
     ],
   },
 ]
@@ -143,7 +153,8 @@ export default function ExperienceSection() {
                           {language === "en" ? exp.descriptionEn : exp.descriptionZh}
                         </p>
                         <div className="flex items-center text-blue-400 text-sm font-medium group-hover:text-blue-300 transition-colors duration-300">
-                          {t("experience.viewDetails")} 👉
+                          {/* {t("experience.viewDetails")} 👉 */}
+                          {t("experience.viewDetails")} 
                           <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-2 transition-transform duration-300" />
                         </div>
                       </div>

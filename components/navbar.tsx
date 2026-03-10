@@ -43,6 +43,7 @@ export default function Navbar() {
   const navItems = [
     { id: "home", label: t("nav.home"), type: "scroll" },
     { id: "bio", label: t("nav.bio"), type: "link", href: "/bio" },
+    // { id: "education", label: t("nav.education"), type: "scroll" },
     { id: "projects", label: t("nav.projects"), type: "scroll" },
     { id: "experience", label: t("nav.experience"), type: "scroll" },
     { id: "papers", label: t("nav.papers"), type: "scroll" },
