@@ -414,6 +414,7 @@ export const projects: Project[] = [
 {
   id: "restroom-signage",
   titleEn: "Public Restroom Signage Usability Study",
+  // titleEn: "When Restroom Signs Fail: A Data Analysis of User Experience Across 200 Public Facilities",
   titleZh: "公共厕所标识可用性研究",
 
   descriptionEn:

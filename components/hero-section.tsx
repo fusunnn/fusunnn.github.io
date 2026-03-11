@@ -45,9 +45,9 @@ export default function HeroSection() {
           </div>
 
           {/* Welcome Text */}
-          <p className="text-sm sm:text-lg text-white/60 mb-4 animate-slide-up">
+          {/* <p className="text-sm sm:text-lg text-white/60 mb-4 animate-slide-up">
             {t("hero.greeting")}
-          </p>
+          </p> */}
 
           {/* Main Title */}
           <div className="relative mb-6 sm:mb-8">

@@ -51,7 +51,7 @@ export default function BioSection() {
                 }}
               >
                 <Image
-                  src="/images/lydia/2_1.jpg"
+                  src="/images/lydia/5_4.jpg"
                   alt="Profile photo"
                   fill
                   className="object-cover"

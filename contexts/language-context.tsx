@@ -79,7 +79,7 @@ const translations = {
 
     // Footer / Contact
     "footer.connect": "Let's Connect",
-    "footer.connect.project": "Let’s connect and build something meaningful together.",
+    "footer.connect.project": "Let's connect and build something meaningful together.",
     "footer.made": "Made with",
     "contact.title": "Contact",
     "contact.email": "Email",

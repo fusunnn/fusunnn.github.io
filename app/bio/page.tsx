@@ -8,6 +8,9 @@ import { MessageCircle } from "lucide-react"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import { Card } from "@/components/ui/card"
+import Link from "next/link"
+import { ArrowLeft } from "lucide-react"
+
 
 export default function BioPage() {
   const [isVisible, setIsVisible] = useState(false)
@@ -65,6 +68,15 @@ In my free time, I enjoy photography, working out, and I'm especially fond of zo
         <div className="absolute inset-0 bg-gradient-to-b from-black to-gray-900"></div>
 
         <div className="relative z-10 max-w-6xl mx-auto">
+
+          {/* 返回首页按钮 */}
+          <Link href="/" className="inline-block mb-8">
+            <Button variant="ghost" className="text-white/70 hover:text-white hover:bg-white/10 transition-all duration-300">
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              {language === "en" ? "Back to Home" : "返回首页"}
+            </Button>
+          </Link>
+
           <div className={`transition-all duration-1000 ${isVisible ? "animate-slide-up" : "opacity-0"}`}>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
               {/* Left side - Photo in oval frame */}
@@ -80,7 +92,7 @@ In my free time, I enjoy photography, working out, and I'm especially fond of zo
                     }}
                   >
                     <Image
-                      src="/images/lydia/2_1.jpg"
+                      src="/images/lydia/5_4.jpg"
                       alt="Profile photo"
                       fill
                       className="object-cover"
