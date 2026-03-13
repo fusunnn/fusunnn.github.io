@@ -62,14 +62,14 @@ export default function HeroSection() {
 
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 animate-slide-up" style={{ animationDelay: "0.3s" }}>
+          {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 animate-slide-up" style={{ animationDelay: "0.3s" }}>
             <Button
               onClick={scrollToProjects}
               className="glass border border-white/20 hover:border-white/40 text-white font-semibold px-8 py-4 group transition-all duration-300 hover:scale-105 hover:bg-white/10"
             >
               {t("hero.viewProjects")}
             </Button>
-          </div>
+          </div> */}
 
           {/* Resume Download Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-12 animate-slide-up" style={{ animationDelay: "0.4s" }}>

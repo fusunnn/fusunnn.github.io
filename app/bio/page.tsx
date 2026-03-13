@@ -22,21 +22,23 @@ export default function BioPage() {
 
   const bioContent = {
     en: {
-      background: `I am a final-year undergraduate at Shanghai International Studies University, majoring in Digital Media and Communication (GPA: 3.78/4.0).
+      background: `I am a final-year undergraduate at Shanghai International Studies University, majoring in Network and New Media (GPA: 3.78/4.0).
 
   CET-4: 584 | CET-6: 568 | TEM-4: Excellent. I am fluent in both Chinese and English, with strong reading and writing proficiency.
 
   During my studies, I developed a solid foundation in data analysis, natural language processing, and digital media production. I am particularly interested in how technology shapes human communication, and I enjoy exploring the intersection of AI, data, and media.`,
 
-      interests: `Beyond academics, I am fascinated by the rapidly evolving world of AI and its growing role in everyday life. I enjoy exploring emerging technologies, reading about cognitive science, and thinking about how intelligent systems can better serve human needs.
+      interests: `Beyond academics, I am fascinated by the rapidly evolving world of AI and its growing role in everyday life. I enjoy exploring emerging technologies and thinking about how intelligent systems can better serve human needs.
 
-  I am also deeply interested in data journalism and visual storytelling. When presented thoughtfully, data can reveal important insights and spark meaningful conversations. 
+I am also deeply interested in data journalism, information distribution, and visual storytelling. When data and content are presented thoughtfully, they can reveal meaningful insights and shape how people understand complex issues.
 
 In my free time, I enjoy photography, working out, and I'm especially fond of zombie-themed films and TV shows!`,
 
-      goals: `My goal is to become a product leader who bridges cutting-edge AI technology with real-world user needs. I want to build products that are not only technically powerful but also intuitive and human-centered.
+      goals: `My career interest lies at the intersection of technology, data, and user experience. I am particularly curious about how digital products, intelligent systems, and data-driven insights shape the way information, content, and services reach people.
 
-  In the short term, I am seeking opportunities to gain hands-on experience in AI product management and data-driven decision making. In the long term, I hope to lead teams that create innovative solutions addressing meaningful social challenges.`,
+In the short term, I hope to gain hands-on experience in product development, product operations, or data-driven decision-making within technology-driven teams. I am especially interested in areas related to information distribution, digital advertising, and platform growth.
+
+In the long term, I aspire to contribute to building thoughtful, human-centered digital products that connect technology, content, and real user needs in meaningful ways.`,
     },
 
     zh: {
@@ -46,15 +48,17 @@ In my free time, I enjoy photography, working out, and I'm especially fond of zo
 
   在大学期间，我逐步建立了数据分析、自然语言处理和数字媒体制作方面的基础能力。我尤其关注技术如何影响人与人之间的沟通，并持续探索 AI、数据与媒体之间的交叉领域。`,
 
-      interests: `在学术之外，我对 AI 技术及其在日常生活中的应用充满兴趣。我喜欢关注新技术的发展，也喜欢阅读认知科学相关内容，思考智能系统如何更好地服务于人类需求。
+      interests: `在学术之外，我对 AI 技术及其在日常生活中的应用充满兴趣。我喜欢关注新技术的发展，也喜欢思考智能系统如何更好地服务于人类需求。
 
-  同时，我对数据新闻与视觉叙事也非常感兴趣。我相信，当数据被清晰而有逻辑地呈现时，可以帮助人们理解复杂问题，并引发有价值的公共讨论。
+同时，我对数据新闻、信息分发以及视觉叙事非常感兴趣。我相信，当数据与内容被清晰而有逻辑地呈现时，可以帮助人们理解复杂问题，并影响信息在社会中的传播方式。
 
-  闲暇时间里，我喜欢摄影、健身，还特别喜欢丧尸影视作品！`,
+闲暇时间里，我喜欢摄影、健身，还特别喜欢丧尸影视作品！`,
 
-      goals: `我的职业目标是成为一名能够连接前沿 AI 技术与真实用户需求的产品负责人。我希望构建既具备技术深度，又直观易用、以人为中心的产品。
+      goals: `我的职业兴趣主要在技术、数据与用户体验的交汇点。我关注数字产品、智能系统以及数据洞察如何影响信息、内容与服务触达用户的方式。
 
-  短期来看，我希望在产品经理和数据驱动决策相关领域积累实践经验；长期来看，我希望能够带领团队打造解决重要社会问题的创新产品。`,
+短期来看，我希望在产品、产品运营或数据驱动决策相关岗位中积累实践经验，尤其对信息分发、数字广告与平台增长等方向充满兴趣。
+
+长期来看，我希望参与打造真正以用户为中心、能够连接技术、内容与真实需求的数字产品。`,
     },
   }
 

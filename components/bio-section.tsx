@@ -14,13 +14,14 @@ export default function BioSection() {
     en: {
       intro: `I am a final-year undergraduate at Shanghai International Studies University, majoring in Network and New Media. I am interested in the intersection of technology, data, media, and human communication.`,
 
-      passion: `I enjoy exploring how AI, data analysis, and product thinking can be combined to build useful and meaningful digital experiences. With a background in digital media and communication, I am also curious about how emerging technologies are reshaping storytelling, information flow, and the way people understand the world.`,
+      passion: `I am interested in how technology and data shape product experiences and the ways information is distributed. I also enjoy thinking about how digital products can better connect content, users, and platforms through thoughtful design and clear logic. 
+      With a background in Network and New Media, I continue to explore how emerging technologies are reshaping information dissemination, storytelling forms, and the ways people understand the world.`,
     },
 
     zh: {
       intro: `我是上海外国语大学网络与新媒体专业的大四学生，对技术、数据、媒体与人类沟通之间的交汇领域充满兴趣。`,
 
-      passion: `我关注 AI、数据分析与产品思维如何结合，期待创造有价值的数字产品体验。基于数字媒体与传播的学习背景，我也持续关注新技术如何改变信息传播方式、叙事形态，以及人们理解世界的方式。`,
+      passion: `我关注技术与数据如何影响产品体验与信息传播方式，也持续思考数字产品如何通过更好的设计与逻辑连接内容、用户与平台。基于网络与新媒体的学习背景，我也持续关注新技术如何改变信息传播方式、叙事形态，以及人们理解世界的方式。`,
     },
   }
 
