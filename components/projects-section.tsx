@@ -160,7 +160,8 @@
 
 import { useLanguage } from "@/contexts/language-context"
 import { Card } from "@/components/ui/card"
-import { ArrowRight, Brain, BarChart3, Accessibility, Radio, Sparkles, Target, Activity, Layers, Eye, Map, PenTool, Zap, Users, Trophy } from "lucide-react"
+// import { ArrowRight, Brain, BarChart3, Accessibility, Radio, Sparkles, Target, Activity, Layers, Eye, Map, PenTool, Zap, Users, Trophy } from "lucide-react"
+import { ArrowRight, Brain, BarChart3, Accessibility, Radio, Sparkles, Target, Activity, Layers, Eye, Map, PenTool, Zap, Users, Trophy, Music } from "lucide-react"
 import Link from "next/link"
 
 export interface Project {
@@ -305,7 +306,7 @@ export const projects: Project[] = [
     "设计并实现基于知识图谱的AIGC媒体内容真实性评测框架，在测试集上达到80%的识别准确率。",
 
   icon: <Brain className="w-8 h-8" />,
-  role: "Project Lead",
+  // role: "Project Lead",
 
   contextEn:
     "With the rapid growth of AIGC-generated media content, hallucinated information has become a critical challenge for news verification. This project aimed to design a systematic evaluation framework to assess the authenticity of AI-generated media content.",
@@ -318,9 +319,9 @@ export const projects: Project[] = [
     "构建基于知识图谱推理的验证逻辑，设计媒体内容真实性评测流程与指标体系，并与新华社、解放日报、浙江清华长三角研究院进行多轮技术研讨。",
 
   impactEn:
-    "Achieved 80% accuracy on evaluation test sets. Filed 1 invention patent. Won First Prize in the 'Challenge Cup' and Third Prize in the 2025 Shanghai Computer Application Competition.",
+    "Supported by Shanghai Municipal Education Commission Key Project (YKYKY-2025-ZX-0001) and National Social Science Foundation (20VYJ037). Achieved 80% test accuracy, awarded first prize in Challenge Cup and third prize in Shanghai Collegiate Computing Contest 2025.",
   impactZh:
-    "测试集准确率达到80%，申请发明专利1项，获“挑战杯”一等奖与2025年上海市计算机应用能力大赛三等奖。",
+    "上海市教委人工智能促进科研范式改革赋能学科跃升计划专项重点项目：大语言模型性能评测数据集开发与应用研究（YKYKY-2025-ZX-0001）；国家社科基金：重大突发公共卫生事件中舆情应对预案机制研究（20VYJ037）；测试集准确率达到80%，获“挑战杯”一等奖与2025年上海市计算机应用能力大赛三等奖。",
 
   recognition: ["Xinhua News Agency", "Jiefang Daily", "Yangtze Delta Region Institute"],
 
@@ -349,7 +350,7 @@ export const projects: Project[] = [
     "主导设计基于机器视觉的电梯广告推荐系统，实现实时用户画像与广告动态匹配。",
 
   icon: <BarChart3 className="w-8 h-8" />,
-  role: "Project Lead",
+  // role: "Project Lead",
 
   contextEn:
     "Traditional elevator advertising lacks personalization and data-driven targeting. This project explored how machine vision and deep learning could enable real-time audience analysis and dynamic ad recommendation.",
@@ -389,7 +390,7 @@ export const projects: Project[] = [
     "从用户研究到高保真原型设计，完成心理健康App产品方案。",
 
   icon: <PenTool className="w-8 h-8" />,
-  role: "Product Designer",
+  // role: "Product Designer",
 
   contextEn:
     "Increasing anxiety among young adults highlights the need for accessible mental health support tools. This project explored a user-centered product solution.",
@@ -408,8 +409,57 @@ export const projects: Project[] = [
 
 
   externalLink:
-    "https://app.mockplus.cn/s/PeR9bDD6G?"
+    "https://app.mockplus.cn/s/PeR9bDD6G?",
+
+  images: [
+    "/images/projects/calmwave/2.png",
+    "/images/projects/calmwave/图片4.jpg",
+    "/images/projects/calmwave/图片2.jpg",
+    "/images/projects/calmwave/图片7.png",
+    "/images/projects/calmwave/图片8.png",
+    "/images/projects/calmwave/图片9.png",
+    "/images/projects/calmwave/图片12.png",
+    "/images/projects/calmwave/图片13.png",
+    "/images/projects/calmwave/图片15.png",
+  ],
 },
+
+
+{
+  id: "song-emotion-analysis",
+  titleEn: "Song Emotion Analysis & Recommendation System",
+  titleZh: "情感分析音乐推荐系统",
+
+  descriptionEn: "An emotion-driven music recommendation system that matches users' current mood with songs through sentiment analysis of song comments.",
+  descriptionZh: "通过用户输入的情感关键词，基于歌曲评论的情感分析，为用户推荐匹配当前情绪的音乐。",
+
+  icon: <Music className="w-8 h-8" />,
+  // role: "Project Lead",
+
+  contextEn: "Traditional music recommendation systems rely heavily on user listening history and collaborative filtering, often overlooking the emotional dimension. This project explores how sentiment analysis of song comments can enable emotion-aware music recommendations, offering a more human-centered approach.",
+  contextZh: "传统音乐推荐系统主要依赖用户历史行为和协同过滤，往往忽略了情感维度。本项目探索如何通过对歌曲评论进行情感分析，实现情绪感知的音乐推荐，提供更人性化的体验。",
+
+  approachEn: "Applied natural language processing techniques to analyze user-input emotion keywords and map them to sentiment patterns in song comments. Built a semantic matching framework to identify songs that best align with the user's current emotional state.",
+  approachZh: "利用自然语言处理技术，将用户输入的心情关键词与歌曲评论进行语义分析和情感匹配。构建情感匹配框架，识别最能代表用户当前情绪的歌曲。",
+
+  impactEn: "Enriches the research scope of recommendation systems and demonstrates practical applications of affective computing in music recommendation. Provides a more personalized and emotionally resonant music experience, potentially enhancing user engagement and platform retention.",
+  impactZh: "丰富了推荐系统的研究范畴，为情感计算在音乐推荐中的应用提供了技术实践。为用户提供更人性化的音乐推荐体验，有助于增强数字音乐平台的用户粘性与满意度。",
+
+  externalLink: "",  // 如果有 GitHub 或演示链接，放这里
+  images: [
+    "/images/projects/music/图片1.png",
+    "/images/projects/music/图片2.png",
+    "/images/projects/music/图片3.png",
+    "/images/projects/music/图片4.jpg",
+    "/images/projects/music/图片5.jpg",
+    "/images/projects/music/图片9.png",
+    "/images/projects/music/图片7.png",
+    "/images/projects/music/图片8.jpg",
+    "/images/projects/music/图片6.jpg",
+    "/images/projects/music/10.png",
+  ],
+},
+
 
 {
   id: "restroom-signage",
@@ -423,7 +473,7 @@ export const projects: Project[] = [
     "带领团队实地调研上海市200余个公共厕所，研究标识设计的可用性与可达性问题。",
 
   icon: <Map className="w-8 h-8" />,
-  role: "Project Lead",
+  // role: "Project Lead",
 
   contextEn:
     "Public restroom signage can create confusion for different user groups, especially tourists and elderly people. This project investigated usability issues through large-scale field research.",
@@ -462,20 +512,20 @@ export const projects: Project[] = [
   descriptionEn:
     "Produced and operated a multimedia journalism project exploring late-night content consumption.",
   descriptionZh:
-    "策划并运营融合媒体项目，探索青年群体的午夜内容消费与叙事表达。",
+    "策划并运营融合媒体项目，探索当代人们的午夜内容消费与叙事表达。",
 
   icon: <Radio className="w-8 h-8" />,
-  role: "Content Creator & Operator",
+  // role: "Content Creator & Operator",
 
   contextEn:
-    "Late-night digital media consumption is growing among young audiences, yet storytelling formats remain limited. This project explored new narrative forms through multimedia storytelling.",
+    "Late-night digital media consumption is growing, yet storytelling formats remain limited. This project explored new narrative forms through multimedia storytelling.",
   contextZh:
-    "年轻群体的午夜内容消费不断增长，但相关叙事形式仍较单一。本项目尝试通过融合媒体叙事进行内容创新。",
+    "当代人们的午夜内容消费不断增长，但相关叙事形式仍较单一。本项目尝试通过融合媒体叙事进行内容创新。",
 
   approachEn:
     "Planned content strategy, produced videos and long-form articles, and managed multi-platform publishing across WeChat and Douyin.",
   approachZh:
-    "负责内容策划、视频拍摄、排版编辑及多平台发布运营。",
+    "深夜采访出租车司机、烧烤店老板、留学生群体等，等负责内容策划、视频拍摄、排版编辑及多平台发布运营。",
 
   impactEn:
     "Published 7 articles and 17 short videos with total exposure exceeding 50,000+. Highest single article reached 8,000 reads.",
@@ -485,6 +535,16 @@ export const projects: Project[] = [
 
   externalLink:
     "https://mp.weixin.qq.com/s/CO4_CE3FIkKxxfXCOx_FiQ",
+
+  images: [
+    "/images/projects/midnight/1.jpg",
+    "/images/projects/midnight/2.png",
+    "/images/projects/midnight/3.png",
+    "/images/projects/midnight/4.png",
+    "/images/projects/midnight/5.png",
+    "/images/projects/midnight/6.png",
+  ],
+    
   
    visionEn: "No matter how times change or how the medium evolves, humanity's need for quality resources and desire for profound, diverse thinking will never change. In an ever-shifting media landscape, our goal remains the same: to continue using words as our medium to tell stories that touch hearts and inspire thought, regardless of length or form.",
    visionZh: "无论时代如何变迁、传播介质如何变化，人类对优质稀缺资源的需求和对深刻多元思想的渴望永远不会改变。在不断变化的媒体景观中，我们的目标始终是无论时间长短、形势如何，继续以字为媒，传递那些能触动人心、引发思考的故事。"

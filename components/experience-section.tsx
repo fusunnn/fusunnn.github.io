@@ -87,15 +87,13 @@ export const experiences: Experience[] = [
       "Produced 20+ business reports and maintained customer and operational datasets",
       "Participated in 50+ product sales and delivery workflows",
       "Assisted in organizing a 200+ participant all-hands meeting",
-      "Collected historical team materials and produced a 4-minute opening video for the meeting",
-      "Received positive feedback from the department"
+      "Collected historical team materials and produced a 4-minute opening video for the meeting"
     ],
     achievementsZh: [
       "完成 20+ 份数据报表和客户数据维护、商务数据维护",
       "参与 50+ 项产品销售、交付等全流程",
       "参与策划并组织 200+ 人规模的全员会议",
-      "整理部门成员过往资料，制作 4 min+ 暖场视频",
-      "获部门好评"
+      "整理部门成员过往资料，制作 4 min+ 暖场视频"
     ],
   },
 ]

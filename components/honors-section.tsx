@@ -182,6 +182,14 @@ const honors: Honor[] = [
     icon: <Gift className="w-6 h-6" />,
   },
   {
+    id: "scholarship-2526-2",
+    nameEn: "Outstanding Student Scholarship - Second Prize",
+    nameZh: "优秀学生奖学金 二等奖",
+    year: 2025,
+    semester: "Fall",
+    icon: <Gem className="w-6 h-6" />,
+  },
+  {
     id: "scholarship-2526-1",
     nameEn: "Outstanding Student Scholarship - Second Prize",
     nameZh: "优秀学生奖学金 二等奖",

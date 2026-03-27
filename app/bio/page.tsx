@@ -38,7 +38,7 @@ In my free time, I enjoy photography, working out, and I'm especially fond of zo
 
 In the short term, I hope to gain hands-on experience in product development, product operations, or data-driven decision-making within technology-driven teams. I am especially interested in areas related to information distribution, digital advertising, and platform growth.
 
-In the long term, I aspire to contribute to building thoughtful, human-centered digital products that connect technology, content, and real user needs in meaningful ways.`,
+In the long term, I aspire to contribute to building thoughtful, human-centered products that connect technology, content, and real user needs in meaningful ways.`,
     },
 
     zh: {
@@ -58,7 +58,7 @@ In the long term, I aspire to contribute to building thoughtful, human-centered 
 
 短期来看，我希望在产品、产品运营或数据驱动决策相关岗位中积累实践经验，尤其对信息分发、数字广告与平台增长等方向充满兴趣。
 
-长期来看，我希望参与打造真正以用户为中心、能够连接技术、内容与真实需求的数字产品。`,
+长期来看，我希望参与打造真正以用户为中心、能够连接技术、内容与真实需求的产品。`,
     },
   }
 
