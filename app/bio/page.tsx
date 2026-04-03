@@ -34,11 +34,11 @@ I am also deeply interested in data journalism, information distribution, and vi
 
 In my free time, I enjoy photography, working out, and I'm especially fond of zombie-themed films and TV shows!`,
 
-      goals: `My career interest lies at the intersection of technology, data, and user experience. I am particularly curious about how digital products, intelligent systems, and data-driven insights shape the way information, content, and services reach people.
+      goals: `My professional interests lie at the intersection of technology, data, and user experience. I am particularly interested in how digital products, intelligent systems, and data insights shape the way information, content, and services reach users, as well as the role of brand expression and storytelling within this process.
 
-In the short term, I hope to gain hands-on experience in product development, product operations, or data-driven decision-making within technology-driven teams. I am especially interested in areas related to information distribution, digital advertising, and platform growth.
+In the short term, I hope to gain hands-on experience in product, brand, or data-driven roles. I am especially interested in areas such as information distribution, digital advertising, and platform growth.
 
-In the long term, I aspire to contribute to building thoughtful, human-centered products that connect technology, content, and real user needs in meaningful ways.`,
+In the long term, I aspire to contribute to building truly user-centered products and brand experiences that effectively connect technology, content, and real user needs.`,
     },
 
     zh: {
@@ -54,11 +54,12 @@ In the long term, I aspire to contribute to building thoughtful, human-centered 
 
 闲暇时间里，我喜欢摄影、健身，还特别喜欢丧尸影视作品！`,
 
-      goals: `我的职业兴趣主要在技术、数据与用户体验的交汇点。我关注数字产品、智能系统以及数据洞察如何影响信息、内容与服务触达用户的方式。
+      goals: `我的职业兴趣主要在技术、数据与用户体验的交汇点。我关注数字产品、智能系统以及数据洞察如何影响信息、内容与服务触达用户的方式，以及品牌表达与内容叙事在其中所起的作用。
 
-短期来看，我希望在产品、产品运营或数据驱动决策相关岗位中积累实践经验，尤其对信息分发、数字广告与平台增长等方向充满兴趣。
 
-长期来看，我希望参与打造真正以用户为中心、能够连接技术、内容与真实需求的产品。`,
+短期来看，我希望在产品、品牌或数据驱动决策相关岗位中积累实践经验，尤其对信息分发、数字广告与平台增长等方向充满兴趣。
+
+长期来看，我希望参与打造真正以用户为中心、能够连接技术、内容与真实需求的产品与品牌体验。`,
     },
   }
 
