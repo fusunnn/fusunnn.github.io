@@ -321,7 +321,7 @@ export const projects: Project[] = [
   impactEn:
     "Supported by Shanghai Municipal Education Commission Key Project (YKYKY-2025-ZX-0001) and National Social Science Foundation (20VYJ037). Achieved 80% test accuracy, awarded first prize in Challenge Cup and third prize in Shanghai Collegiate Computing Contest 2025.",
   impactZh:
-    "上海市教委人工智能促进科研范式改革赋能学科跃升计划专项重点项目：大语言模型性能评测数据集开发与应用研究（YKYKY-2025-ZX-0001）；国家社科基金：重大突发公共卫生事件中舆情应对预案机制研究（20VYJ037）；测试集准确率达到80%，获“挑战杯”一等奖与2025年上海市计算机应用能力大赛三等奖。",
+    "上海市教委人工智能促进科研范式改革赋能学科跃升计划专项重点项目：大语言模型性能评测数据集开发与应用研究（YKYKY-2025-ZX-0001）；测试集准确率达到80%，获“挑战杯”一等奖与2025年上海市计算机应用能力大赛三等奖。",
 
   recognition: ["Xinhua News Agency", "Jiefang Daily", "Yangtze Delta Region Institute"],
 
