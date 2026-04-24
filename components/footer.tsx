@@ -133,7 +133,7 @@ export default function Footer() {
               <Phone className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-white font-semibold mb-1">{t("contact.phone") || "手机"}</h3>
-            <p className="text-white/70 text-sm">130-2086-4475</p>
+            <p className="text-white/70 text-sm">131-6298-5493</p>
           </a>
 
           {/* WeChat 微信 */}
